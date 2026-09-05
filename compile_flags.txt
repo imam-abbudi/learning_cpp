@@ -1,0 +1,3 @@
+-std=c++26
+-I/opt/homebrew/opt/openssl@3/include
+-DCPPHTTPLIB_OPENSSL_SUPPORT
