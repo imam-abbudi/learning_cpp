@@ -6,8 +6,6 @@
 int p(std::string_view name) { return name.find("nut") != std::string::npos; }
 
 int main() {
-  std::cout << std::boolalpha;
-
   // make an array of names
   std::array<std::string, 4> names{"alicing", "bobbing", "cheryling",
                                    "dereckinutg"};
