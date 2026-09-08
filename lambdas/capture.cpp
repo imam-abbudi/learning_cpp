@@ -29,4 +29,6 @@ int main() {
 
     std::cout << lmd() << '\n';
   }
+
+  auto foo = [] -> int {};
 }
